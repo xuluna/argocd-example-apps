@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: docker.io/library/nginx:latest
+      - image: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/nginx:latest
         name: guestbook-ui
         ports:
         - containerPort: 80

@@ -1,0 +1,12 @@
+apiVersion: csm-authorization.storage.dell.com/v1alpha1
+kind: Storage
+metadata:
+  name: powerflex
+spec:
+  type: powerflex
+  endpoint: https://lgloa241.hop.lab.emc.com/
+  systemID: fa6960ff6dc6cd0f
+  credentialStore: vault
+  credentialPath: luna/powerflex
+  skipCertificateValidation: true
+  pollInterval: 30s

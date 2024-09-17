@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/created-by: csm-authorization
   name: role1
 spec:
-  quota: 1GB
+  quota: 10GB
   systemID: fa6960ff6dc6cd0f
   systemType: powerflex
   pool: SP-SW_HDD-1

@@ -4,7 +4,7 @@ metadata:
   name: powerflex
 spec:
   type: powerflex
-  endpoint: https://lgloa241.hop.lab.emc.com/
+  endpoint: <https://endpoint address>
   systemID: fa6960ff6dc6cd0f
   credentialStore: vault
   credentialPath: luna/powerflex
